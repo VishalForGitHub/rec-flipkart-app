@@ -1,0 +1,23 @@
+/* Slider Container */
+.slider {
+    width: 97%;
+    /* max-width: 500px; */
+    overflow: hidden;
+    margin: 1.5%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  /* Slides Container */
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Individual Slide */
+  .slide {
+    min-width: 100%;
+    height: auto;
+  }
+  
