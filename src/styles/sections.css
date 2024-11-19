@@ -15,10 +15,14 @@
 }
 
 .field{
-    /* background-color: yellow; */
     margin: 3px;
+    cursor: pointer;
 }
 
-.field p{
+
+.fields a{
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
+
